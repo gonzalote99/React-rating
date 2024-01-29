@@ -1,0 +1,47 @@
+.points{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+.point-number{
+    width: 45px;
+    height: 45px;
+    background-color: var(--Grey);
+    color: var(--Light-Grey);
+    border-radius: 50%;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.point-number:hover{
+    background-color: var(--Orange);
+    color: var(--White);
+}
+.point-number:focus{
+    background-color: var(--Light-Grey);
+    color: var(--White);
+}
+
+.btn{
+    background-color: var(--Orange);
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 20px;
+    padding: 12px 0;
+    color: var(--White);
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: var(--White);
+    color: var(--Orange);
+}
+.btn:active{
+    transform: translateY(1px);
+}

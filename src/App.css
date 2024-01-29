@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+  --Orange: hsl(25, 97%, 53%);
+  --White: hsl(0, 0%, 100%);
+  --Light-Grey: hsl(217, 12%, 63%);
+  --Medium-Grey: hsl(216, 12%, 54%);
+  --Grey: #262f36;
+  --Dark-Blue: hsl(213, 19%, 18%);
+  --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Nunuto', sans-serif;
+  
+}
+
+body {
+  background-color: var(--Very-Dark-Blue);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 0.1px);
+}
+
+.app {
+  width: 380px;
+  background-color: var(--Dark-Blue);
+  padding: 30px;
+  border-radius: 25px;
+}
+
+h1, h2 {
+  font-weight: 700;
+  color: var(--White);
+  margin-bottom: 10px;
+}
+p{
+  font-size: 15px;
+  color: var(--Light-Grey)
+}
